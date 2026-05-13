@@ -1,0 +1,521 @@
+# Data Analytics — Complete Summary Notes
+
+# 1. Data
+
+## Definition
+
+Data means raw facts and figures collected from different sources.
+
+Examples:
+
+* Marks = 90
+* Temperature = 42°C
+* Student names
+* Images and videos
+
+---
+
+# 2. Types of Data
+
+## (A) Structured Data
+
+Fixed format me organized data.
+
+### Examples
+
+* Excel sheets
+* Database tables
+* Bank records
+
+### Diagram
+
+```text
++---------+--------+-------+
+| Roll No | Name   | Marks |
++---------+--------+-------+
+| 101     | Adit   | 90    |
+| 102     | Rahul  | 85    |
++---------+--------+-------+
+```
+
+### Features
+
+* Easy to search
+* Rows and columns format
+* Fast analysis
+
+---
+
+## (B) Unstructured Data
+
+Jiska koi fixed format nahi hota.
+
+### Examples
+
+* Videos
+* Images
+* Emails
+* Social media posts
+
+### Diagram
+
+```text
+Image   Video   Audio   Text
+  *       *       *      *
+```
+
+### Features
+
+* Difficult to analyze
+* Huge amount of data
+
+---
+
+## (C) Semi-Structured Data
+
+Partially organized data.
+
+### Examples
+
+* JSON
+* XML
+* HTML
+
+### Example JSON
+
+```json
+{
+  "name": "Adit",
+  "marks": 90
+}
+```
+
+### Features
+
+* Flexible structure
+* Easier than unstructured data
+
+---
+
+# 3. DIKW Model
+
+## Data → Information → Knowledge → Wisdom
+
+```text
+           Wisdom
+        (Decision Making)
+
+           Knowledge
+       (Understanding)
+
+          Information
+      (Processed Data)
+
+              Data
+         (Raw Facts)
+```
+
+---
+
+## Example
+
+### Data
+
+```text
+85, 90, 78
+```
+
+### Information
+
+```text
+Average marks = 84.3
+```
+
+### Knowledge
+
+```text
+Student performance is good.
+```
+
+### Wisdom
+
+```text
+Student should get scholarship.
+```
+
+---
+
+# 4. Characteristics of Data
+
+| Characteristic | Meaning                |
+| -------------- | ---------------------- |
+| Accuracy       | Correct data           |
+| Completeness   | No missing values      |
+| Consistency    | Same format everywhere |
+| Timeliness     | Updated data           |
+| Relevance      | Useful data            |
+| Reliability    | Trusted source         |
+| Validity       | Follows rules          |
+| Uniqueness     | No duplicate records   |
+| Accessibility  | Easy access            |
+| Security       | Protected data         |
+
+---
+
+## Important Characteristics
+
+### Accuracy
+
+Correct and error-free data.
+
+Example:
+
+```text
+Marks = 90
+```
+
+---
+
+### Completeness
+
+No important value should be missing.
+
+Example:
+
+```text
+Marks = NULL
+```
+
+---
+
+### Consistency
+
+Same format everywhere.
+
+Example:
+
+```text
+14/05/2026
+May 14, 2026
+```
+
+---
+
+### Timeliness
+
+Latest and updated data.
+
+---
+
+### Validity
+
+Data should follow rules.
+
+Example:
+
+```text
+Age = -5
+```
+
+Invalid value.
+
+---
+
+# 5. Need of Data Analytics
+
+## Why Data Analytics is Needed?
+
+### 1. Better Decision Making
+
+Companies better decisions leti hain.
+
+### 2. Customer Understanding
+
+Customer behavior analyze hota hai.
+
+### 3. Business Growth
+
+Future trends predict hote hain.
+
+### 4. Improving Efficiency
+
+Time aur cost reduce hoti hai.
+
+### 5. Risk Management
+
+Fraud aur risks identify hote hain.
+
+### 6. Future Prediction
+
+Forecasting possible hoti hai.
+
+---
+
+# 6. Data Analytics Tools
+
+| Tool     | Main Use              |
+| -------- | --------------------- |
+| Excel    | Basic analysis        |
+| Python   | ML and analytics      |
+| R        | Statistical analysis  |
+| SQL      | Database queries      |
+| Tableau  | Visualization         |
+| Power BI | Business intelligence |
+| Hadoop   | Big data              |
+| SAS      | Enterprise analytics  |
+
+---
+
+## Example Tools
+
+### Excel
+
+* Charts
+* Pivot tables
+* Calculations
+
+### Python
+
+Libraries:
+
+* Pandas
+* NumPy
+* Matplotlib
+
+### SQL Example
+
+```sql
+SELECT * FROM students;
+```
+
+---
+
+# 7. Applications of Data Analytics
+
+| Field          | Application            |
+| -------------- | ---------------------- |
+| Healthcare     | Disease prediction     |
+| Banking        | Fraud detection        |
+| E-commerce     | Product recommendation |
+| Education      | Student analysis       |
+| Social Media   | Personalized content   |
+| Transportation | Route optimization     |
+| Sports         | Performance analysis   |
+| Weather        | Forecasting            |
+
+---
+
+## Real-Life Examples
+
+### Banking
+
+Fraud transactions detect karna.
+
+### E-commerce
+
+Products recommend karna.
+
+### Education
+
+Weak students identify karna.
+
+---
+
+# 8. Data Analytics Lifecycle (DALC)
+
+## Phases of DALC
+
+```text
+Discovery
+    ↓
+Data Preparation
+    ↓
+Model Planning
+    ↓
+Model Building
+    ↓
+Communicate Results
+    ↓
+Operationalize
+```
+
+---
+
+## 1. Discovery
+
+Problem identify karna.
+
+Example:
+Sales decrease hone ka reason find karna.
+
+---
+
+## 2. Data Preparation
+
+Data cleaning and organization.
+
+Example:
+Missing values remove karna.
+
+---
+
+## 3. Model Planning
+
+Techniques and algorithms choose karna.
+
+Example:
+Regression model select karna.
+
+---
+
+## 4. Model Building
+
+Model train aur test karna.
+
+Example:
+Python me ML model banana.
+
+---
+
+## 5. Communicate Results
+
+Reports aur charts create karna.
+
+---
+
+## 6. Operationalize
+
+Model deployment and monitoring.
+
+Example:
+Fraud detection system deploy karna.
+
+---
+
+# 9. Key Roles for Successful Analytic Projects
+
+| Role             | Work                        |
+| ---------------- | --------------------------- |
+| Business Analyst | Business requirements       |
+| Data Analyst     | Data analysis and reports   |
+| Data Scientist   | Machine learning models     |
+| Data Engineer    | Data pipelines and storage  |
+| Project Manager  | Team and project management |
+| DBA              | Database management         |
+
+---
+
+## Important Roles
+
+### Business Analyst
+
+Business goals identify karta hai.
+
+### Data Analyst
+
+Reports and visualization banata hai.
+
+### Data Scientist
+
+Prediction aur ML models banata hai.
+
+### Data Engineer
+
+Data storage and processing systems manage karta hai.
+
+---
+
+# Quick Revision Sheet
+
+## Types of Data
+
+```text
+Structured → Tables
+Semi-Structured → JSON/XML
+Unstructured → Images/Videos
+```
+
+---
+
+## DIKW
+
+```text
+Data → Information → Knowledge → Wisdom
+```
+
+---
+
+## Important Characteristics
+
+```text
+Accuracy
+Completeness
+Consistency
+Timeliness
+Validity
+```
+
+---
+
+## Important Tools
+
+```text
+Excel
+Python
+SQL
+Tableau
+Power BI
+```
+
+---
+
+## Important Applications
+
+```text
+Healthcare
+Banking
+E-commerce
+Education
+Transportation
+```
+
+---
+
+## DALC Steps
+
+```text
+Discovery
+Data Preparation
+Model Planning
+Model Building
+Communicate Results
+Operationalize
+```
+
+---
+
+# One-Line Definitions
+
+## Data
+
+Raw facts and figures.
+
+## Information
+
+Processed meaningful data.
+
+## Knowledge
+
+Understanding from information.
+
+## Wisdom
+
+Correct decision using knowledge.
+
+## Data Analytics
+
+Process of analyzing data to get useful insights.
+
+## DALC
+
+Step-by-step process of analytics project.
